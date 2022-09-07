@@ -8,9 +8,10 @@
 // update DOM to reflect the new state
 
 const nameInput = document.getElementById('name-input');
+const nameDisplay = document.getElementById('name');
+const buttonClick = document.getElementById('button');
 
-const name = document.getElementById('name');
-
-const changeButton = document.getElementById('button');
-
-changeButton.addEventListener('click', () => {});
+buttonClick.addEventListener('click', () => {
+    nameDisplay.textContent = nameInput.value;
+});
+console.log(nameInput);

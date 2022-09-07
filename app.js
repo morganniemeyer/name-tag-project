@@ -14,4 +14,3 @@ const buttonClick = document.getElementById('button');
 buttonClick.addEventListener('click', () => {
     nameDisplay.textContent = nameInput.value;
 });
-console.log(nameInput);

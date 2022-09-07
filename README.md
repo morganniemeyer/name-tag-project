@@ -27,3 +27,16 @@ Additional considerations:
 -   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
 
 ![](./Wireframe.jpg)
+
+###html
+input
+button
+box containing
+-header(hello my name is)
+-body(where name goes)
+-footer(color)\
+
+###events
+get input
+uses input to update body text
+clears input section

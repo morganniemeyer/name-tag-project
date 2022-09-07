@@ -9,8 +9,8 @@
 
 const nameInput = document.getElementById('name-input');
 
+const name = document.getElementById('name');
+
 const changeButton = document.getElementById('button');
 
-changeButton.addEventListener('click', () => {
-    console.log('click');
-});
+changeButton.addEventListener('click', () => {});

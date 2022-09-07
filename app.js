@@ -10,3 +10,5 @@
 const nameInput = document.getElementById('name-input');
 console.log(nameInput);
 console.log(nameInput);
+const changeButton = document.getElementById('button');
+console.log(changeButton);
